@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * func_swap - swap top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @num_line: number of line opcode occurs on
+ * func_swap - swap top of stack and second top stack
+ * @stack: pointer  for monty stack
+ * @num_line: number of line opcode 
  */
 
 void func_swap(stack_tlin **stack, unsigned int num_line)
@@ -24,9 +24,9 @@ void func_swap(stack_tlin **stack, unsigned int num_line)
 
 
 /**
- * func_add - add top of stack y second top stack
+ * func_add - add top of top stack
  * @stack: pointer to lists for monty stack
- * @num_line: number of line opcode occurs on
+ * @num_line: number of line opcode 
  */
 void func_add(stack_tlin **stack, unsigned int num_line)
 {
@@ -59,9 +59,9 @@ void func_add(stack_tlin **stack, unsigned int num_line)
 
 
 /**
- * func_nop - nop top of stack y second top stack
+ * func_nop - top of stack  second top stack
  * @stack: pointer to lists for monty stack
- * @num_line: number of line opcode occurs on
+ * @num_line: number of line opcode 
  */
 
 void func_nop(__attribute__ ((unused))stack_tlin **stack,
@@ -72,9 +72,9 @@ void func_nop(__attribute__ ((unused))stack_tlin **stack,
 
 
 /**
- * func_pchar - prints the ASCII value of a number
- * @stack: pointer to the top of the stack
- * @num_line: the index of the current line
+ * func_pchar - print  ASCII value of a number
+ * @stack: pointer to top of stack
+ * @num_line: the index the current line
  *
  */
 void func_pchar(stack_tlin **stack, unsigned int num_line)
@@ -107,7 +107,7 @@ void func_pchar(stack_tlin **stack, unsigned int num_line)
 
 
 /**
- * isalphabi - checks if int is in alphabet
+ * isalphabi - checks if int in alphabet
  * @c: int
  * Return: 1 if yes, 0 if no
  */

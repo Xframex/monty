@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * isnumber - checks if a string is a number
+ * isnumber - checks if string is number
  * @s: pointer to the string
  *
  * Return: 1 if true, else 0
@@ -28,9 +28,9 @@ int isnumber(char *s)
 }
 
 /**
- * parse_line - parse each line of command
- * @line: line to be parsed
- * @stack: pointer to the head
+ * parse_line  each line of command
+ * @line:l to be parsed
+ * @stack:pointer to the head
  * @line_num: current line count
  *
  * Return: NULL on false, else opcode
@@ -94,9 +94,9 @@ instruct_func get_op_func(char *s)
 }
 
 /**
- * read_file - reads bycode and runs commnads
+ * read_file - reads bycode and exec commnads
  * @filename: file name
- * @stack: pointer to the head
+ * @stack: pointer to   head
  */
 void read_file(char *filename, stack_tlin **stack)
 {

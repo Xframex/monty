@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * func_sub - sub top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @num_line: number of line opcode occurs on
+ * func_sub - sub t stack y second top stack
+ * @stack: pointer to  monty stack
+ * @num_line: number of line opcode 
  */
 void func_sub(stack_tlin **stack, unsigned int num_line)
 {
@@ -60,8 +60,8 @@ void func_mul(stack_tlin **stack, unsigned int num_line)
 
 
 /**
- * func_div - div top of stack y second top stack
- * @stack: pointer to lists for monty stack
+ * func_div - div top of stack second top stack
+ * @stack: pointer to lists y stack
  * @num_line: number of line opcode occurs on
  */
 void func_div(stack_tlin **stack, unsigned int num_line)
@@ -94,9 +94,9 @@ void func_div(stack_tlin **stack, unsigned int num_line)
 
 
 /**
- * func_mod - mod top of stack y second top stack
- * @stack: pointer to lists for monty stack
- * @num_line: number of line opcode occurs on
+ * func_mod -top of stack y second top stack
+ * @stack: pointer for monty stack
+ * @num_line: number of line opcode occurs
  */
 void func_mod(stack_tlin **stack, unsigned int num_line)
 {

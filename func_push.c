@@ -28,9 +28,9 @@ void func_push(stack_tlin **stack, __attribute__ ((unused))unsigned int num_line
 
 
 /**
- * func_pall - print all function
+ * func_pall -  function
  * @stack: pointer to linked list stack
- * @num_line: number of line opcode occurs on
+ * @num_line: number of line opcode  on
  */
 void func_pall(stack_tlin **stack, __attribute__ ((unused))unsigned int num_line)
 {
@@ -50,7 +50,7 @@ void func_pall(stack_tlin **stack, __attribute__ ((unused))unsigned int num_line
 /**
  * func_pint - print int a top of stack
  * @stack: pointer to linked list stack
- * @num_line: number of line opcode occurs on
+ * @num_line: number of line opcode occurs 
  *
  */
 void func_pint(stack_tlin **stack, unsigned int num_line)
@@ -67,7 +67,7 @@ void func_pint(stack_tlin **stack, unsigned int num_line)
 }
 
 /**
- * func_pop - remove element a list
+ * func_pop - poping  element a list
  *@stack: pointer to first node
  *@num_line: integer
  *Return: void
@@ -104,4 +104,3 @@ void free_lis(stack_tlin *head)
 		head = tmp;
 	}
 }
-
